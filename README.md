@@ -15,3 +15,9 @@ Prerequisites
 - Release branches in GITHUB must be of the form, "the word release, hyphen, numerical release number" (release\-([0-9\.]+))$
   e.g.
   release-16.5
+
+
+Script is:
+_generate-releaselog-jiratickets.ps1
+
+Usage guide is in the comments at the top of the script.
