@@ -1,7 +1,7 @@
 # JIRATicketReferencesInBuild
 This PowerShell script, produces a text file containing all the JIRA ticket reference numbers for the current sprint/release. It works well with the automated deployment/continous integration tool TeamCity.
 
-The end result is that you can visit your UAT/QA website at http://www.yourwebsitehere.com/releaselog.txt and see a file similar to the sample one here.
+The end result is that you can visit your UAT/QA website at http://www.yourwebsitehere.com/releaselog.txt and see a file similar to the sample one https://github.com/paulness/JIRATicketReferencesInBuild/blob/master/releaselog.txt.
 
 Prerequisites
 
