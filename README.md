@@ -10,15 +10,14 @@ Prerequisites
 - The first line of included commits must be of the form '([A-Za-z]+\-\d+)', other commits are ignored
 
   e.g.
-  NAVBAR-344
+  NAVBAR-344<br/>
   Updated navbar
 
 - Release branches in GITHUB must be of the form, "the word release, hyphen, numerical release number" (release\-([0-9\.]+))$
 
-  e.g.
+  e.g.<br/>
   release-16.5
 
 
-Script is:
-
+Script is:<br/>
 _generate-releaselog-jiratickets.ps1
