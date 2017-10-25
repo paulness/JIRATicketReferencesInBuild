@@ -4,9 +4,11 @@ This PowerShell script, produces a text file containing all the JIRA ticket refe
 The end result is that you can visit your UAT/QA website at http://www.yourwebsitehere.com/releaselog.txt and see a file similar to the sample one here.
 
 Prerequisites
+
 - You must be using GITHUB
 
 - The first line of included commits must be of the form '([A-Za-z]+\-\d+)', other commits are ignored
+
   TICKET-REFNO
   Description
 
@@ -18,9 +20,12 @@ Prerequisites
   e.g.
   release-16.5
 
-Usage
+<b>Usage</b>
+
 #Please change the following variables
+
 $gitProjectFolder = "C:/GIT/SampleProject"
+
 $releaseLogFilePath = "$gitProjectFolder\build\codedeploy\MyWebSite\releaselog.txt"
 
 ProduceGitReleaseLog -gitProjectFolder $gitProjectFolder -releaseLogFilePath $releaseLogFilePath
