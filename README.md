@@ -9,7 +9,7 @@ Prerequisites
 
 - The first line of included commits must be of the form '([A-Za-z]+\-\d+)', other commits are ignored
 
-  e.g.
+  e.g.<br/>
   NAVBAR-344<br/>
   Updated navbar
 
